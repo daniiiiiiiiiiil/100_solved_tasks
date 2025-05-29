@@ -1,0 +1,10 @@
+E:\с#\100 solved tasks\100 solved tasks\bin\Debug\100 solved tasks.exe.config
+E:\с#\100 solved tasks\100 solved tasks\bin\Debug\100 solved tasks.exe
+E:\с#\100 solved tasks\100 solved tasks\bin\Debug\100 solved tasks.pdb
+E:\с#\100 solved tasks\100 solved tasks\obj\Debug\100 solved tasks.csproj.AssemblyReference.cache
+E:\с#\100 solved tasks\100 solved tasks\obj\Debug\_100_solved_tasks.Form1.resources
+E:\с#\100 solved tasks\100 solved tasks\obj\Debug\_100_solved_tasks.Properties.Resources.resources
+E:\с#\100 solved tasks\100 solved tasks\obj\Debug\100 solved tasks.csproj.GenerateResource.cache
+E:\с#\100 solved tasks\100 solved tasks\obj\Debug\100 solved tasks.csproj.CoreCompileInputs.cache
+E:\с#\100 solved tasks\100 solved tasks\obj\Debug\100 solved tasks.exe
+E:\с#\100 solved tasks\100 solved tasks\obj\Debug\100 solved tasks.pdb
