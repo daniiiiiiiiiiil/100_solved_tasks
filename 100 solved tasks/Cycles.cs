@@ -36,5 +36,14 @@ namespace _100_solved_tasks
 
             MessageBox.Show(message, "Делители числа");
         }
+        public void countdown(int n)
+        {
+            while (n != 0)
+            {
+                MessageBox.Show(n.ToString());
+                n--;
+            }
+            MessageBox.Show("Поехали");
+        }
     }
 }

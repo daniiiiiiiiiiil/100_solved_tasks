@@ -108,7 +108,7 @@
             this.result1.Name = "result1";
             this.result1.Size = new System.Drawing.Size(75, 23);
             this.result1.TabIndex = 2;
-            this.result1.Text = "Ресультат";
+            this.result1.Text = "Результат";
             this.result1.UseVisualStyleBackColor = true;
             this.result1.Click += new System.EventHandler(this.result1_Click);
             // 
@@ -277,6 +277,7 @@
             this.conditions6.TabIndex = 20;
             this.conditions6.Text = "Условия";
             this.conditions6.UseVisualStyleBackColor = true;
+            this.conditions6.Click += new System.EventHandler(this.conditions6_Click);
             // 
             // conditions7
             // 
@@ -286,6 +287,7 @@
             this.conditions7.TabIndex = 21;
             this.conditions7.Text = "Условия";
             this.conditions7.UseVisualStyleBackColor = true;
+            this.conditions7.Click += new System.EventHandler(this.conditions7_Click);
             // 
             // conditions8
             // 
@@ -295,6 +297,7 @@
             this.conditions8.TabIndex = 22;
             this.conditions8.Text = "Условия";
             this.conditions8.UseVisualStyleBackColor = true;
+            this.conditions8.Click += new System.EventHandler(this.conditions8_Click);
             // 
             // conditions9
             // 
@@ -304,6 +307,7 @@
             this.conditions9.TabIndex = 23;
             this.conditions9.Text = "Условия";
             this.conditions9.UseVisualStyleBackColor = true;
+            this.conditions9.Click += new System.EventHandler(this.conditions9_Click);
             // 
             // conditions10
             // 
@@ -313,6 +317,7 @@
             this.conditions10.TabIndex = 24;
             this.conditions10.Text = "Условия";
             this.conditions10.UseVisualStyleBackColor = true;
+            this.conditions10.Click += new System.EventHandler(this.conditions10_Click);
             // 
             // conditions11
             // 
@@ -322,6 +327,7 @@
             this.conditions11.TabIndex = 25;
             this.conditions11.Text = "Условия";
             this.conditions11.UseVisualStyleBackColor = true;
+            this.conditions11.Click += new System.EventHandler(this.conditions11_Click);
             // 
             // conditions12
             // 
@@ -389,6 +395,7 @@
             this.code6.TabIndex = 32;
             this.code6.Text = "Код";
             this.code6.UseVisualStyleBackColor = true;
+            this.code6.Click += new System.EventHandler(this.code6_Click);
             // 
             // code7
             // 
@@ -398,6 +405,7 @@
             this.code7.TabIndex = 33;
             this.code7.Text = "Код";
             this.code7.UseVisualStyleBackColor = true;
+            this.code7.Click += new System.EventHandler(this.code7_Click);
             // 
             // code8
             // 
@@ -407,6 +415,7 @@
             this.code8.TabIndex = 34;
             this.code8.Text = "Код";
             this.code8.UseVisualStyleBackColor = true;
+            this.code8.Click += new System.EventHandler(this.code8_Click);
             // 
             // code9
             // 
@@ -416,6 +425,7 @@
             this.code9.TabIndex = 35;
             this.code9.Text = "Код";
             this.code9.UseVisualStyleBackColor = true;
+            this.code9.Click += new System.EventHandler(this.code9_Click);
             // 
             // code10
             // 
@@ -425,6 +435,7 @@
             this.code10.TabIndex = 36;
             this.code10.Text = "Код";
             this.code10.UseVisualStyleBackColor = true;
+            this.code10.Click += new System.EventHandler(this.code10_Click);
             // 
             // code11
             // 
@@ -434,6 +445,7 @@
             this.code11.TabIndex = 37;
             this.code11.Text = "Код";
             this.code11.UseVisualStyleBackColor = true;
+            this.code11.Click += new System.EventHandler(this.code11_Click);
             // 
             // code12
             // 
@@ -459,7 +471,7 @@
             this.result2.Name = "result2";
             this.result2.Size = new System.Drawing.Size(75, 23);
             this.result2.TabIndex = 40;
-            this.result2.Text = "Ресультат";
+            this.result2.Text = "Результат";
             this.result2.UseVisualStyleBackColor = true;
             this.result2.Click += new System.EventHandler(this.result2_Click);
             // 
@@ -469,7 +481,7 @@
             this.result3.Name = "result3";
             this.result3.Size = new System.Drawing.Size(75, 23);
             this.result3.TabIndex = 41;
-            this.result3.Text = "Ресультат";
+            this.result3.Text = "Результат";
             this.result3.UseVisualStyleBackColor = true;
             this.result3.Click += new System.EventHandler(this.result3_Click);
             // 
@@ -479,7 +491,7 @@
             this.result4.Name = "result4";
             this.result4.Size = new System.Drawing.Size(75, 23);
             this.result4.TabIndex = 42;
-            this.result4.Text = "Ресультат";
+            this.result4.Text = "Результат";
             this.result4.UseVisualStyleBackColor = true;
             this.result4.Click += new System.EventHandler(this.result4_Click);
             // 
@@ -489,7 +501,7 @@
             this.result5.Name = "result5";
             this.result5.Size = new System.Drawing.Size(75, 23);
             this.result5.TabIndex = 43;
-            this.result5.Text = "Ресультат";
+            this.result5.Text = "Результат";
             this.result5.UseVisualStyleBackColor = true;
             this.result5.Click += new System.EventHandler(this.result5_Click);
             // 
@@ -499,8 +511,9 @@
             this.result6.Name = "result6";
             this.result6.Size = new System.Drawing.Size(75, 23);
             this.result6.TabIndex = 44;
-            this.result6.Text = "Ресультат";
+            this.result6.Text = "Результат";
             this.result6.UseVisualStyleBackColor = true;
+            this.result6.Click += new System.EventHandler(this.result6_Click);
             // 
             // result7
             // 
@@ -508,8 +521,9 @@
             this.result7.Name = "result7";
             this.result7.Size = new System.Drawing.Size(75, 23);
             this.result7.TabIndex = 45;
-            this.result7.Text = "Ресультат";
+            this.result7.Text = "Результат";
             this.result7.UseVisualStyleBackColor = true;
+            this.result7.Click += new System.EventHandler(this.result7_Click);
             // 
             // result8
             // 
@@ -517,8 +531,9 @@
             this.result8.Name = "result8";
             this.result8.Size = new System.Drawing.Size(75, 23);
             this.result8.TabIndex = 46;
-            this.result8.Text = "Ресультат";
+            this.result8.Text = "Результат";
             this.result8.UseVisualStyleBackColor = true;
+            this.result8.Click += new System.EventHandler(this.result8_Click);
             // 
             // result9
             // 
@@ -526,8 +541,9 @@
             this.result9.Name = "result9";
             this.result9.Size = new System.Drawing.Size(75, 23);
             this.result9.TabIndex = 47;
-            this.result9.Text = "Ресультат";
+            this.result9.Text = "Результат";
             this.result9.UseVisualStyleBackColor = true;
+            this.result9.Click += new System.EventHandler(this.result9_Click);
             // 
             // result13
             // 
@@ -535,7 +551,7 @@
             this.result13.Name = "result13";
             this.result13.Size = new System.Drawing.Size(75, 23);
             this.result13.TabIndex = 48;
-            this.result13.Text = "Ресультат";
+            this.result13.Text = "Результат";
             this.result13.UseVisualStyleBackColor = true;
             // 
             // result10
@@ -544,8 +560,9 @@
             this.result10.Name = "result10";
             this.result10.Size = new System.Drawing.Size(75, 23);
             this.result10.TabIndex = 48;
-            this.result10.Text = "Ресультат";
+            this.result10.Text = "Результат";
             this.result10.UseVisualStyleBackColor = true;
+            this.result10.Click += new System.EventHandler(this.result10_Click);
             // 
             // result11
             // 
@@ -553,8 +570,9 @@
             this.result11.Name = "result11";
             this.result11.Size = new System.Drawing.Size(75, 23);
             this.result11.TabIndex = 49;
-            this.result11.Text = "Ресультат";
+            this.result11.Text = "Результат";
             this.result11.UseVisualStyleBackColor = true;
+            this.result11.Click += new System.EventHandler(this.result11_Click);
             // 
             // result12
             // 
@@ -562,7 +580,7 @@
             this.result12.Name = "result12";
             this.result12.Size = new System.Drawing.Size(75, 23);
             this.result12.TabIndex = 50;
-            this.result12.Text = "Ресультат";
+            this.result12.Text = "Результат";
             this.result12.UseVisualStyleBackColor = true;
             // 
             // Form1
