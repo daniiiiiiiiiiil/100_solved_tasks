@@ -337,6 +337,7 @@
             this.conditions12.TabIndex = 26;
             this.conditions12.Text = "Условия";
             this.conditions12.UseVisualStyleBackColor = true;
+            this.conditions12.Click += new System.EventHandler(this.conditions12_Click);
             // 
             // conditions13
             // 
@@ -346,6 +347,7 @@
             this.conditions13.TabIndex = 27;
             this.conditions13.Text = "Условия";
             this.conditions13.UseVisualStyleBackColor = true;
+            this.conditions13.Click += new System.EventHandler(this.conditions13_Click);
             // 
             // code2
             // 
@@ -455,6 +457,7 @@
             this.code12.TabIndex = 38;
             this.code12.Text = "Код";
             this.code12.UseVisualStyleBackColor = true;
+            this.code12.Click += new System.EventHandler(this.code12_Click);
             // 
             // code13
             // 
@@ -464,6 +467,7 @@
             this.code13.TabIndex = 39;
             this.code13.Text = "Код";
             this.code13.UseVisualStyleBackColor = true;
+            this.code13.Click += new System.EventHandler(this.code13_Click);
             // 
             // result2
             // 
@@ -553,6 +557,7 @@
             this.result13.TabIndex = 48;
             this.result13.Text = "Результат";
             this.result13.UseVisualStyleBackColor = true;
+            this.result13.Click += new System.EventHandler(this.result13_Click);
             // 
             // result10
             // 
@@ -582,6 +587,7 @@
             this.result12.TabIndex = 50;
             this.result12.Text = "Результат";
             this.result12.UseVisualStyleBackColor = true;
+            this.result12.Click += new System.EventHandler(this.result12_Click);
             // 
             // Form1
             // 

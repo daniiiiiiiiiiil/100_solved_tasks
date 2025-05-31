@@ -45,12 +45,33 @@ namespace _100_solved_tasks
                 s = false;
             MessageBox.Show(s.ToString());
         }
-        public void order(string word)
+       public void Reverse_word_order(string word)
         {
-            string[] words = word.Split(' ');
-            string s = new string(words.Reverse().ToArray());
-            string reversed = string.Join(" ", s);
-            MessageBox.Show(reversed);
+            List<string> words = new List<string>(word.Split(' '));
+            words.Reverse();
+            string reversed = string.Join(" ", words);
+            MessageBox.Show(reversed.ToString());
+        }
+        public void min()
+        {
+            int[] numbers = { 5, 2, 9, 1 };
+
+            int min = numbers[0]; 
+
+            for (int i = 1; i < numbers.Length; i++)
+            {
+                if (numbers[i] < min)
+                {
+                    min = numbers[i];
+                }
+            }
+            MessageBox.Show(min.ToString());
+        }
+        public void Delete()
+        {
+            List<int> numbers = new List<int> { 1, 2, 3, 2, 4,3, 2, 5 };
+            List<int> uniqueNumbers = numbers.Distinct().ToList();
+            MessageBox.Show(string.Join(", ", uniqueNumbers));
         }
     }
 }

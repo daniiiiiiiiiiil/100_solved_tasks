@@ -178,17 +178,47 @@ namespace _100_solved_tasks
 
         private void conditions11_Click(object sender, EventArgs e)
         {
-
+            MessageBox.Show("Дана строка слов. Вернуть их в обратном порядке.\r\nПример: \"Hello World\" → \"World Hello\"");
         }
 
         private void code11_Click(object sender, EventArgs e)
         {
-
+            MessageBox.Show("public void Reverse_word_order(string word)\r\n        {\r\n            List<string> words = new List<string>(word.Split(' '));\r\n            words.Reverse();\r\n            string reversed = string.Join(\" \", words);\r\n            MessageBox.Show(reversed.ToString());\r\n        }");
         }
 
         private void result11_Click(object sender, EventArgs e)
         {
-            array.order("Hello World");
+            array.Reverse_word_order("Hello Wordl");
+        }
+
+        private void conditions12_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Поиск минимального числа в массиве\r\nНайти наименьшее число в массиве.\r\nПример: [5, 2, 9, 1] → 1");
+        }
+
+        private void code12_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(" public void min()\r\n        {\r\n            int[] numbers = { 5, 2, 9, 1 };\r\n\r\n            int min = numbers[0]; \r\n\r\n            for (int i = 1; i < numbers.Length; i++)\r\n            {\r\n                if (numbers[i] < min)\r\n                {\r\n                    min = numbers[i];\r\n                }\r\n            }\r\n            MessageBox.Show(min.ToString());\r\n        }");
+        }
+
+        private void result12_Click(object sender, EventArgs e)
+        {
+            array.min();
+        }
+
+        private void conditions13_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Удаление дубликатов из массива\r\nВернуть массив без повторяющихся элементов.\r\nПример: [1, 2, 2, 3] → [1, 2, 3]");
+        }
+
+        private void code13_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void result13_Click(object sender, EventArgs e)
+        {
+            array.Delete();
         }
     }
 }
