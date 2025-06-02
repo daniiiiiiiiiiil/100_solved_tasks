@@ -213,12 +213,28 @@ namespace _100_solved_tasks
 
         private void code13_Click(object sender, EventArgs e)
         {
-
+            MessageBox.Show("public void Delete()\r\n        {\r\n            List<int> numbers = new List<int> { 1, 2, 3, 2, 4,3, 2, 5 };\r\n            List<int> uniqueNumbers = numbers.Distinct().ToList();\r\n            MessageBox.Show(string.Join(\", \", uniqueNumbers));\r\n        }");
         }
 
         private void result13_Click(object sender, EventArgs e)
         {
             array.Delete();
+        }
+
+        private void conditions14_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Code14_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void result14_Click(object sender, EventArgs e)
+        {
+            array.sum("123");
+            array.um("789");
         }
     }
 }

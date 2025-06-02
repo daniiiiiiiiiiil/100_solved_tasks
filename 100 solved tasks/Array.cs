@@ -73,5 +73,32 @@ namespace _100_solved_tasks
             List<int> uniqueNumbers = numbers.Distinct().ToList();
             MessageBox.Show(string.Join(", ", uniqueNumbers));
         }
+        public void sum(string number)
+        {
+            int sum = 0;
+
+            foreach (char c in number)
+            {
+                if (char.IsDigit(c))
+                {
+                    int digit = c - '0';
+                    sum += digit;
+                }
+            }
+            MessageBox.Show(sum.ToString());
+        }
+        public void um(string number)
+        {
+            int sum = 1;
+            foreach(char c in number)
+            {
+                if(char.IsDigit(c))
+                {
+                    int digit = c - '0';
+                    sum *= digit;
+                }
+            }
+            MessageBox.Show(sum.ToString());
+        }
     }
 }

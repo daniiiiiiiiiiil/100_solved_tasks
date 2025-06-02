@@ -80,6 +80,58 @@
             this.result10 = new System.Windows.Forms.Button();
             this.result11 = new System.Windows.Forms.Button();
             this.result12 = new System.Windows.Forms.Button();
+            this.label14 = new System.Windows.Forms.Label();
+            this.result14 = new System.Windows.Forms.Button();
+            this.Code14 = new System.Windows.Forms.Button();
+            this.conditions14 = new System.Windows.Forms.Button();
+            this.label15 = new System.Windows.Forms.Label();
+            this.result15 = new System.Windows.Forms.Button();
+            this.Code15 = new System.Windows.Forms.Button();
+            this.conditions15 = new System.Windows.Forms.Button();
+            this.label16 = new System.Windows.Forms.Label();
+            this.result16 = new System.Windows.Forms.Button();
+            this.Code16 = new System.Windows.Forms.Button();
+            this.conditions16 = new System.Windows.Forms.Button();
+            this.label17 = new System.Windows.Forms.Label();
+            this.result17 = new System.Windows.Forms.Button();
+            this.Code17 = new System.Windows.Forms.Button();
+            this.conditions17 = new System.Windows.Forms.Button();
+            this.label18 = new System.Windows.Forms.Label();
+            this.result18 = new System.Windows.Forms.Button();
+            this.Code18 = new System.Windows.Forms.Button();
+            this.conditions18 = new System.Windows.Forms.Button();
+            this.label19 = new System.Windows.Forms.Label();
+            this.result19 = new System.Windows.Forms.Button();
+            this.Code19 = new System.Windows.Forms.Button();
+            this.conditions19 = new System.Windows.Forms.Button();
+            this.label20 = new System.Windows.Forms.Label();
+            this.result20 = new System.Windows.Forms.Button();
+            this.Code20 = new System.Windows.Forms.Button();
+            this.conditions20 = new System.Windows.Forms.Button();
+            this.label21 = new System.Windows.Forms.Label();
+            this.button22 = new System.Windows.Forms.Button();
+            this.button23 = new System.Windows.Forms.Button();
+            this.button24 = new System.Windows.Forms.Button();
+            this.label22 = new System.Windows.Forms.Label();
+            this.button25 = new System.Windows.Forms.Button();
+            this.button26 = new System.Windows.Forms.Button();
+            this.button27 = new System.Windows.Forms.Button();
+            this.label23 = new System.Windows.Forms.Label();
+            this.button28 = new System.Windows.Forms.Button();
+            this.button29 = new System.Windows.Forms.Button();
+            this.button30 = new System.Windows.Forms.Button();
+            this.label24 = new System.Windows.Forms.Label();
+            this.button31 = new System.Windows.Forms.Button();
+            this.button32 = new System.Windows.Forms.Button();
+            this.button33 = new System.Windows.Forms.Button();
+            this.label25 = new System.Windows.Forms.Label();
+            this.button34 = new System.Windows.Forms.Button();
+            this.button35 = new System.Windows.Forms.Button();
+            this.button36 = new System.Windows.Forms.Button();
+            this.label26 = new System.Windows.Forms.Label();
+            this.button37 = new System.Windows.Forms.Button();
+            this.button38 = new System.Windows.Forms.Button();
+            this.button39 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // conditions1
@@ -589,11 +641,534 @@
             this.result12.UseVisualStyleBackColor = true;
             this.result12.Click += new System.EventHandler(this.result12_Click);
             // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(316, 18);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(67, 13);
+            this.label14.TabIndex = 54;
+            this.label14.Text = "ЗАДАЧА 14";
+            // 
+            // result14
+            // 
+            this.result14.Location = new System.Drawing.Point(545, 13);
+            this.result14.Name = "result14";
+            this.result14.Size = new System.Drawing.Size(75, 23);
+            this.result14.TabIndex = 53;
+            this.result14.Text = "Результат";
+            this.result14.UseVisualStyleBackColor = true;
+            this.result14.Click += new System.EventHandler(this.result14_Click);
+            // 
+            // Code14
+            // 
+            this.Code14.Location = new System.Drawing.Point(464, 13);
+            this.Code14.Name = "Code14";
+            this.Code14.Size = new System.Drawing.Size(75, 23);
+            this.Code14.TabIndex = 52;
+            this.Code14.Text = "Код";
+            this.Code14.UseVisualStyleBackColor = true;
+            this.Code14.Click += new System.EventHandler(this.Code14_Click);
+            // 
+            // conditions14
+            // 
+            this.conditions14.Location = new System.Drawing.Point(383, 12);
+            this.conditions14.Name = "conditions14";
+            this.conditions14.Size = new System.Drawing.Size(75, 23);
+            this.conditions14.TabIndex = 51;
+            this.conditions14.Text = "Условия";
+            this.conditions14.UseVisualStyleBackColor = true;
+            this.conditions14.Click += new System.EventHandler(this.conditions14_Click);
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(316, 56);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(67, 13);
+            this.label15.TabIndex = 58;
+            this.label15.Text = "ЗАДАЧА 15";
+            // 
+            // result15
+            // 
+            this.result15.Location = new System.Drawing.Point(545, 51);
+            this.result15.Name = "result15";
+            this.result15.Size = new System.Drawing.Size(75, 23);
+            this.result15.TabIndex = 57;
+            this.result15.Text = "Результат";
+            this.result15.UseVisualStyleBackColor = true;
+            // 
+            // Code15
+            // 
+            this.Code15.Location = new System.Drawing.Point(464, 51);
+            this.Code15.Name = "Code15";
+            this.Code15.Size = new System.Drawing.Size(75, 23);
+            this.Code15.TabIndex = 56;
+            this.Code15.Text = "Код";
+            this.Code15.UseVisualStyleBackColor = true;
+            // 
+            // conditions15
+            // 
+            this.conditions15.Location = new System.Drawing.Point(383, 50);
+            this.conditions15.Name = "conditions15";
+            this.conditions15.Size = new System.Drawing.Size(75, 23);
+            this.conditions15.TabIndex = 55;
+            this.conditions15.Text = "Условия";
+            this.conditions15.UseVisualStyleBackColor = true;
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(316, 88);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(67, 13);
+            this.label16.TabIndex = 62;
+            this.label16.Text = "ЗАДАЧА 16";
+            // 
+            // result16
+            // 
+            this.result16.Location = new System.Drawing.Point(545, 83);
+            this.result16.Name = "result16";
+            this.result16.Size = new System.Drawing.Size(75, 23);
+            this.result16.TabIndex = 61;
+            this.result16.Text = "Результат";
+            this.result16.UseVisualStyleBackColor = true;
+            // 
+            // Code16
+            // 
+            this.Code16.Location = new System.Drawing.Point(464, 83);
+            this.Code16.Name = "Code16";
+            this.Code16.Size = new System.Drawing.Size(75, 23);
+            this.Code16.TabIndex = 60;
+            this.Code16.Text = "Код";
+            this.Code16.UseVisualStyleBackColor = true;
+            // 
+            // conditions16
+            // 
+            this.conditions16.Location = new System.Drawing.Point(383, 82);
+            this.conditions16.Name = "conditions16";
+            this.conditions16.Size = new System.Drawing.Size(75, 23);
+            this.conditions16.TabIndex = 59;
+            this.conditions16.Text = "Условия";
+            this.conditions16.UseVisualStyleBackColor = true;
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(316, 129);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(67, 13);
+            this.label17.TabIndex = 66;
+            this.label17.Text = "ЗАДАЧА 17";
+            // 
+            // result17
+            // 
+            this.result17.Location = new System.Drawing.Point(545, 124);
+            this.result17.Name = "result17";
+            this.result17.Size = new System.Drawing.Size(75, 23);
+            this.result17.TabIndex = 65;
+            this.result17.Text = "Результат";
+            this.result17.UseVisualStyleBackColor = true;
+            // 
+            // Code17
+            // 
+            this.Code17.Location = new System.Drawing.Point(464, 124);
+            this.Code17.Name = "Code17";
+            this.Code17.Size = new System.Drawing.Size(75, 23);
+            this.Code17.TabIndex = 64;
+            this.Code17.Text = "Код";
+            this.Code17.UseVisualStyleBackColor = true;
+            // 
+            // conditions17
+            // 
+            this.conditions17.Location = new System.Drawing.Point(383, 123);
+            this.conditions17.Name = "conditions17";
+            this.conditions17.Size = new System.Drawing.Size(75, 23);
+            this.conditions17.TabIndex = 63;
+            this.conditions17.Text = "Условия";
+            this.conditions17.UseVisualStyleBackColor = true;
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Location = new System.Drawing.Point(316, 163);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(67, 13);
+            this.label18.TabIndex = 70;
+            this.label18.Text = "ЗАДАЧА 18";
+            // 
+            // result18
+            // 
+            this.result18.Location = new System.Drawing.Point(545, 158);
+            this.result18.Name = "result18";
+            this.result18.Size = new System.Drawing.Size(75, 23);
+            this.result18.TabIndex = 69;
+            this.result18.Text = "Результат";
+            this.result18.UseVisualStyleBackColor = true;
+            // 
+            // Code18
+            // 
+            this.Code18.Location = new System.Drawing.Point(464, 158);
+            this.Code18.Name = "Code18";
+            this.Code18.Size = new System.Drawing.Size(75, 23);
+            this.Code18.TabIndex = 68;
+            this.Code18.Text = "Код";
+            this.Code18.UseVisualStyleBackColor = true;
+            // 
+            // conditions18
+            // 
+            this.conditions18.Location = new System.Drawing.Point(383, 157);
+            this.conditions18.Name = "conditions18";
+            this.conditions18.Size = new System.Drawing.Size(75, 23);
+            this.conditions18.TabIndex = 67;
+            this.conditions18.Text = "Условия";
+            this.conditions18.UseVisualStyleBackColor = true;
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(316, 192);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(67, 13);
+            this.label19.TabIndex = 74;
+            this.label19.Text = "ЗАДАЧА 19";
+            // 
+            // result19
+            // 
+            this.result19.Location = new System.Drawing.Point(545, 187);
+            this.result19.Name = "result19";
+            this.result19.Size = new System.Drawing.Size(75, 23);
+            this.result19.TabIndex = 73;
+            this.result19.Text = "Результат";
+            this.result19.UseVisualStyleBackColor = true;
+            // 
+            // Code19
+            // 
+            this.Code19.Location = new System.Drawing.Point(464, 187);
+            this.Code19.Name = "Code19";
+            this.Code19.Size = new System.Drawing.Size(75, 23);
+            this.Code19.TabIndex = 72;
+            this.Code19.Text = "Код";
+            this.Code19.UseVisualStyleBackColor = true;
+            // 
+            // conditions19
+            // 
+            this.conditions19.Location = new System.Drawing.Point(383, 186);
+            this.conditions19.Name = "conditions19";
+            this.conditions19.Size = new System.Drawing.Size(75, 23);
+            this.conditions19.TabIndex = 71;
+            this.conditions19.Text = "Условия";
+            this.conditions19.UseVisualStyleBackColor = true;
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Location = new System.Drawing.Point(316, 227);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(67, 13);
+            this.label20.TabIndex = 78;
+            this.label20.Text = "ЗАДАЧА 20";
+            // 
+            // result20
+            // 
+            this.result20.Location = new System.Drawing.Point(545, 222);
+            this.result20.Name = "result20";
+            this.result20.Size = new System.Drawing.Size(75, 23);
+            this.result20.TabIndex = 77;
+            this.result20.Text = "Результат";
+            this.result20.UseVisualStyleBackColor = true;
+            // 
+            // Code20
+            // 
+            this.Code20.Location = new System.Drawing.Point(464, 222);
+            this.Code20.Name = "Code20";
+            this.Code20.Size = new System.Drawing.Size(75, 23);
+            this.Code20.TabIndex = 76;
+            this.Code20.Text = "Код";
+            this.Code20.UseVisualStyleBackColor = true;
+            // 
+            // conditions20
+            // 
+            this.conditions20.Location = new System.Drawing.Point(383, 221);
+            this.conditions20.Name = "conditions20";
+            this.conditions20.Size = new System.Drawing.Size(75, 23);
+            this.conditions20.TabIndex = 75;
+            this.conditions20.Text = "Условия";
+            this.conditions20.UseVisualStyleBackColor = true;
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Location = new System.Drawing.Point(316, 256);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(67, 13);
+            this.label21.TabIndex = 82;
+            this.label21.Text = "ЗАДАЧА 21";
+            // 
+            // button22
+            // 
+            this.button22.Location = new System.Drawing.Point(545, 251);
+            this.button22.Name = "button22";
+            this.button22.Size = new System.Drawing.Size(75, 23);
+            this.button22.TabIndex = 81;
+            this.button22.Text = "Результат";
+            this.button22.UseVisualStyleBackColor = true;
+            // 
+            // button23
+            // 
+            this.button23.Location = new System.Drawing.Point(464, 251);
+            this.button23.Name = "button23";
+            this.button23.Size = new System.Drawing.Size(75, 23);
+            this.button23.TabIndex = 80;
+            this.button23.Text = "Код";
+            this.button23.UseVisualStyleBackColor = true;
+            // 
+            // button24
+            // 
+            this.button24.Location = new System.Drawing.Point(383, 250);
+            this.button24.Name = "button24";
+            this.button24.Size = new System.Drawing.Size(75, 23);
+            this.button24.TabIndex = 79;
+            this.button24.Text = "Условия";
+            this.button24.UseVisualStyleBackColor = true;
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Location = new System.Drawing.Point(316, 289);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(67, 13);
+            this.label22.TabIndex = 86;
+            this.label22.Text = "ЗАДАЧА 22";
+            // 
+            // button25
+            // 
+            this.button25.Location = new System.Drawing.Point(545, 284);
+            this.button25.Name = "button25";
+            this.button25.Size = new System.Drawing.Size(75, 23);
+            this.button25.TabIndex = 85;
+            this.button25.Text = "Результат";
+            this.button25.UseVisualStyleBackColor = true;
+            // 
+            // button26
+            // 
+            this.button26.Location = new System.Drawing.Point(464, 284);
+            this.button26.Name = "button26";
+            this.button26.Size = new System.Drawing.Size(75, 23);
+            this.button26.TabIndex = 84;
+            this.button26.Text = "Код";
+            this.button26.UseVisualStyleBackColor = true;
+            // 
+            // button27
+            // 
+            this.button27.Location = new System.Drawing.Point(383, 283);
+            this.button27.Name = "button27";
+            this.button27.Size = new System.Drawing.Size(75, 23);
+            this.button27.TabIndex = 83;
+            this.button27.Text = "Условия";
+            this.button27.UseVisualStyleBackColor = true;
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Location = new System.Drawing.Point(316, 318);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(67, 13);
+            this.label23.TabIndex = 90;
+            this.label23.Text = "ЗАДАЧА 23";
+            // 
+            // button28
+            // 
+            this.button28.Location = new System.Drawing.Point(545, 313);
+            this.button28.Name = "button28";
+            this.button28.Size = new System.Drawing.Size(75, 23);
+            this.button28.TabIndex = 89;
+            this.button28.Text = "Результат";
+            this.button28.UseVisualStyleBackColor = true;
+            // 
+            // button29
+            // 
+            this.button29.Location = new System.Drawing.Point(464, 313);
+            this.button29.Name = "button29";
+            this.button29.Size = new System.Drawing.Size(75, 23);
+            this.button29.TabIndex = 88;
+            this.button29.Text = "Код";
+            this.button29.UseVisualStyleBackColor = true;
+            // 
+            // button30
+            // 
+            this.button30.Location = new System.Drawing.Point(383, 312);
+            this.button30.Name = "button30";
+            this.button30.Size = new System.Drawing.Size(75, 23);
+            this.button30.TabIndex = 87;
+            this.button30.Text = "Условия";
+            this.button30.UseVisualStyleBackColor = true;
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Location = new System.Drawing.Point(316, 356);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(67, 13);
+            this.label24.TabIndex = 94;
+            this.label24.Text = "ЗАДАЧА 24";
+            // 
+            // button31
+            // 
+            this.button31.Location = new System.Drawing.Point(545, 351);
+            this.button31.Name = "button31";
+            this.button31.Size = new System.Drawing.Size(75, 23);
+            this.button31.TabIndex = 93;
+            this.button31.Text = "Результат";
+            this.button31.UseVisualStyleBackColor = true;
+            // 
+            // button32
+            // 
+            this.button32.Location = new System.Drawing.Point(464, 351);
+            this.button32.Name = "button32";
+            this.button32.Size = new System.Drawing.Size(75, 23);
+            this.button32.TabIndex = 92;
+            this.button32.Text = "Код";
+            this.button32.UseVisualStyleBackColor = true;
+            // 
+            // button33
+            // 
+            this.button33.Location = new System.Drawing.Point(383, 350);
+            this.button33.Name = "button33";
+            this.button33.Size = new System.Drawing.Size(75, 23);
+            this.button33.TabIndex = 91;
+            this.button33.Text = "Условия";
+            this.button33.UseVisualStyleBackColor = true;
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Location = new System.Drawing.Point(316, 388);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(67, 13);
+            this.label25.TabIndex = 98;
+            this.label25.Text = "ЗАДАЧА 25";
+            // 
+            // button34
+            // 
+            this.button34.Location = new System.Drawing.Point(545, 383);
+            this.button34.Name = "button34";
+            this.button34.Size = new System.Drawing.Size(75, 23);
+            this.button34.TabIndex = 97;
+            this.button34.Text = "Результат";
+            this.button34.UseVisualStyleBackColor = true;
+            // 
+            // button35
+            // 
+            this.button35.Location = new System.Drawing.Point(464, 383);
+            this.button35.Name = "button35";
+            this.button35.Size = new System.Drawing.Size(75, 23);
+            this.button35.TabIndex = 96;
+            this.button35.Text = "Код";
+            this.button35.UseVisualStyleBackColor = true;
+            // 
+            // button36
+            // 
+            this.button36.Location = new System.Drawing.Point(383, 382);
+            this.button36.Name = "button36";
+            this.button36.Size = new System.Drawing.Size(75, 23);
+            this.button36.TabIndex = 95;
+            this.button36.Text = "Условия";
+            this.button36.UseVisualStyleBackColor = true;
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.Location = new System.Drawing.Point(316, 411);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(67, 13);
+            this.label26.TabIndex = 102;
+            this.label26.Text = "ЗАДАЧА 26";
+            // 
+            // button37
+            // 
+            this.button37.Location = new System.Drawing.Point(545, 406);
+            this.button37.Name = "button37";
+            this.button37.Size = new System.Drawing.Size(75, 23);
+            this.button37.TabIndex = 101;
+            this.button37.Text = "Результат";
+            this.button37.UseVisualStyleBackColor = true;
+            // 
+            // button38
+            // 
+            this.button38.Location = new System.Drawing.Point(464, 406);
+            this.button38.Name = "button38";
+            this.button38.Size = new System.Drawing.Size(75, 23);
+            this.button38.TabIndex = 100;
+            this.button38.Text = "Код";
+            this.button38.UseVisualStyleBackColor = true;
+            // 
+            // button39
+            // 
+            this.button39.Location = new System.Drawing.Point(383, 405);
+            this.button39.Name = "button39";
+            this.button39.Size = new System.Drawing.Size(75, 23);
+            this.button39.TabIndex = 99;
+            this.button39.Text = "Условия";
+            this.button39.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label26);
+            this.Controls.Add(this.button37);
+            this.Controls.Add(this.button38);
+            this.Controls.Add(this.button39);
+            this.Controls.Add(this.label25);
+            this.Controls.Add(this.button34);
+            this.Controls.Add(this.button35);
+            this.Controls.Add(this.button36);
+            this.Controls.Add(this.label24);
+            this.Controls.Add(this.button31);
+            this.Controls.Add(this.button32);
+            this.Controls.Add(this.button33);
+            this.Controls.Add(this.label23);
+            this.Controls.Add(this.button28);
+            this.Controls.Add(this.button29);
+            this.Controls.Add(this.button30);
+            this.Controls.Add(this.label22);
+            this.Controls.Add(this.button25);
+            this.Controls.Add(this.button26);
+            this.Controls.Add(this.button27);
+            this.Controls.Add(this.label21);
+            this.Controls.Add(this.button22);
+            this.Controls.Add(this.button23);
+            this.Controls.Add(this.button24);
+            this.Controls.Add(this.label20);
+            this.Controls.Add(this.result20);
+            this.Controls.Add(this.Code20);
+            this.Controls.Add(this.conditions20);
+            this.Controls.Add(this.label19);
+            this.Controls.Add(this.result19);
+            this.Controls.Add(this.Code19);
+            this.Controls.Add(this.conditions19);
+            this.Controls.Add(this.label18);
+            this.Controls.Add(this.result18);
+            this.Controls.Add(this.Code18);
+            this.Controls.Add(this.conditions18);
+            this.Controls.Add(this.label17);
+            this.Controls.Add(this.result17);
+            this.Controls.Add(this.Code17);
+            this.Controls.Add(this.conditions17);
+            this.Controls.Add(this.label16);
+            this.Controls.Add(this.result16);
+            this.Controls.Add(this.Code16);
+            this.Controls.Add(this.conditions16);
+            this.Controls.Add(this.label15);
+            this.Controls.Add(this.result15);
+            this.Controls.Add(this.Code15);
+            this.Controls.Add(this.conditions15);
+            this.Controls.Add(this.label14);
+            this.Controls.Add(this.result14);
+            this.Controls.Add(this.Code14);
+            this.Controls.Add(this.conditions14);
             this.Controls.Add(this.result12);
             this.Controls.Add(this.result11);
             this.Controls.Add(this.result10);
@@ -707,6 +1282,58 @@
         private System.Windows.Forms.Button result10;
         private System.Windows.Forms.Button result11;
         private System.Windows.Forms.Button result12;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Button result14;
+        private System.Windows.Forms.Button Code14;
+        private System.Windows.Forms.Button conditions14;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Button result15;
+        private System.Windows.Forms.Button Code15;
+        private System.Windows.Forms.Button conditions15;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Button result16;
+        private System.Windows.Forms.Button Code16;
+        private System.Windows.Forms.Button conditions16;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Button result17;
+        private System.Windows.Forms.Button Code17;
+        private System.Windows.Forms.Button conditions17;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Button result18;
+        private System.Windows.Forms.Button Code18;
+        private System.Windows.Forms.Button conditions18;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Button result19;
+        private System.Windows.Forms.Button Code19;
+        private System.Windows.Forms.Button conditions19;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.Button result20;
+        private System.Windows.Forms.Button Code20;
+        private System.Windows.Forms.Button conditions20;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.Button button22;
+        private System.Windows.Forms.Button button23;
+        private System.Windows.Forms.Button button24;
+        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.Button button25;
+        private System.Windows.Forms.Button button26;
+        private System.Windows.Forms.Button button27;
+        private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.Button button28;
+        private System.Windows.Forms.Button button29;
+        private System.Windows.Forms.Button button30;
+        private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.Button button31;
+        private System.Windows.Forms.Button button32;
+        private System.Windows.Forms.Button button33;
+        private System.Windows.Forms.Label label25;
+        private System.Windows.Forms.Button button34;
+        private System.Windows.Forms.Button button35;
+        private System.Windows.Forms.Button button36;
+        private System.Windows.Forms.Label label26;
+        private System.Windows.Forms.Button button37;
+        private System.Windows.Forms.Button button38;
+        private System.Windows.Forms.Button button39;
     }
 }
 
