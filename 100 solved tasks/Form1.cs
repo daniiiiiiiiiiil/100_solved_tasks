@@ -16,6 +16,7 @@ namespace _100_solved_tasks
         Cycles cycles;
         Functions functions;
         Array array;
+        Task task;
         public Form1()
         {
             InitializeComponent();
@@ -23,6 +24,7 @@ namespace _100_solved_tasks
             cycles = new Cycles();
             functions = new Functions();
             array = new Array();
+            task = new Task();
         }
 
         private void conditions1_Click(object sender, EventArgs e)
@@ -223,18 +225,63 @@ namespace _100_solved_tasks
 
         private void conditions14_Click(object sender, EventArgs e)
         {
-
+            MessageBox.Show("Подсчёт суммы цифр числа\r\nНайти сумму цифр числа.\r\nПример: 123 → 6");
         }
 
         private void Code14_Click(object sender, EventArgs e)
         {
-
+            MessageBox.Show("public void sum(string number)\r\n        {\r\n            int sum = 0;\r\n\r\n            foreach (char c in number)\r\n            {\r\n                if (char.IsDigit(c))\r\n                {\r\n                    int digit = c - '0';\r\n                    sum += digit;\r\n                }\r\n            }\r\n            MessageBox.Show(sum.ToString());\r\n        }\r\n        public void um(string number)\r\n        {\r\n            int sum = 1;\r\n            foreach(char c in number)\r\n            {\r\n                if(char.IsDigit(c))\r\n                {\r\n                    int digit = c - '0';\r\n                    sum *= digit;\r\n                }\r\n            }\r\n            MessageBox.Show(sum.ToString());\r\n        }");
         }
 
         private void result14_Click(object sender, EventArgs e)
         {
             array.sum("123");
             array.um("789");
+        }
+
+        private void conditions15_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Проверка на простое число\r\nОпределить, является ли число простым.\r\nПример: 7 → true");
+        }
+
+        private void Code15_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("public bool simple(int number)\r\n        {\r\n            if(number < 2)\r\n                return false;\r\n            int limit = (int) Math.Sqrt(number);\r\n            for(int i = 2;i<=limit;i++)\r\n            {\r\n                if(number % i ==0) return true;\r\n            }\r\n            return true;\r\n        }");
+        }
+
+        private void result15_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(task.simple(7).ToString());
+        }
+
+        private void conditions16_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Подсчёт слов в строке\r\nВернуть количество слов в строке.\r\nПример: \"Hello world\" → 2");
+        }
+
+        private void Code16_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void result16_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(task.CountingWords("Hello world").ToString());
+        }
+
+        private void conditions17_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Замена пробелов на дефисы\r\nЗаменить все пробелы в строке на -.\r\nПример: \"Hello world\" → \"Hello-world\"");
+        }
+
+        private void Code17_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("public string Spaces(string line)\r\n        {\r\n            string replace = line.Replace(' ','-');\r\n            return replace;\r\n        }");
+        }
+
+        private void result17_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(task.Spaces("Hello wordl"));
         }
     }
 }

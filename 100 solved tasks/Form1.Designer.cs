@@ -697,6 +697,7 @@
             this.result15.TabIndex = 57;
             this.result15.Text = "Результат";
             this.result15.UseVisualStyleBackColor = true;
+            this.result15.Click += new System.EventHandler(this.result15_Click);
             // 
             // Code15
             // 
@@ -706,6 +707,7 @@
             this.Code15.TabIndex = 56;
             this.Code15.Text = "Код";
             this.Code15.UseVisualStyleBackColor = true;
+            this.Code15.Click += new System.EventHandler(this.Code15_Click);
             // 
             // conditions15
             // 
@@ -715,6 +717,7 @@
             this.conditions15.TabIndex = 55;
             this.conditions15.Text = "Условия";
             this.conditions15.UseVisualStyleBackColor = true;
+            this.conditions15.Click += new System.EventHandler(this.conditions15_Click);
             // 
             // label16
             // 
@@ -733,6 +736,7 @@
             this.result16.TabIndex = 61;
             this.result16.Text = "Результат";
             this.result16.UseVisualStyleBackColor = true;
+            this.result16.Click += new System.EventHandler(this.result16_Click);
             // 
             // Code16
             // 
@@ -742,6 +746,7 @@
             this.Code16.TabIndex = 60;
             this.Code16.Text = "Код";
             this.Code16.UseVisualStyleBackColor = true;
+            this.Code16.Click += new System.EventHandler(this.Code16_Click);
             // 
             // conditions16
             // 
@@ -751,6 +756,7 @@
             this.conditions16.TabIndex = 59;
             this.conditions16.Text = "Условия";
             this.conditions16.UseVisualStyleBackColor = true;
+            this.conditions16.Click += new System.EventHandler(this.conditions16_Click);
             // 
             // label17
             // 
@@ -769,6 +775,7 @@
             this.result17.TabIndex = 65;
             this.result17.Text = "Результат";
             this.result17.UseVisualStyleBackColor = true;
+            this.result17.Click += new System.EventHandler(this.result17_Click);
             // 
             // Code17
             // 
@@ -778,6 +785,7 @@
             this.Code17.TabIndex = 64;
             this.Code17.Text = "Код";
             this.Code17.UseVisualStyleBackColor = true;
+            this.Code17.Click += new System.EventHandler(this.Code17_Click);
             // 
             // conditions17
             // 
@@ -787,6 +795,7 @@
             this.conditions17.TabIndex = 63;
             this.conditions17.Text = "Условия";
             this.conditions17.UseVisualStyleBackColor = true;
+            this.conditions17.Click += new System.EventHandler(this.conditions17_Click);
             // 
             // label18
             // 
