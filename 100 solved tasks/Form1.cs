@@ -331,17 +331,17 @@ namespace _100_solved_tasks
 
         private void conditions21_Click(object sender, EventArgs e)
         {
-
+            MessageBox.Show("Подсчёт букв в строке\r\nНайти, сколько раз встречается буква в строке.\r\nПример: \"hello\", 'l' → 2");
         }
 
         private void code21_Click(object sender, EventArgs e)
         {
-
+            MessageBox.Show("public void Counting_Letters(string word)\r\n        {\r\n            var letterCounts = new Dictionary<char, int>();\r\n\r\n            foreach (char c in word)\r\n            {\r\n                if (letterCounts.ContainsKey(c))\r\n                {\r\n                    letterCounts[c]++;\r\n                }\r\n                else\r\n                {\r\n                    letterCounts[c] = 1;\r\n                }\r\n            }\r\n\r\n            foreach (var kvp in letterCounts)\r\n            {\r\n                if (kvp.Value > 1)\r\n                {\r\n                    MessageBox.Show($\"Буква: {kvp.Key} - повторяется {kvp.Value} раз(а).\");\r\n                }\r\n            }\r\n        }");
         }
 
         private void result21_Click(object sender, EventArgs e)
         {
-            task.Counting_Letters("helllo");
+            task.Counting_Letters("hello");
         }
     }
 }
