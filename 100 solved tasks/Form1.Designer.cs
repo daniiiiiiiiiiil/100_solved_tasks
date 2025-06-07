@@ -109,9 +109,9 @@
             this.Code20 = new System.Windows.Forms.Button();
             this.conditions20 = new System.Windows.Forms.Button();
             this.label21 = new System.Windows.Forms.Label();
-            this.button22 = new System.Windows.Forms.Button();
-            this.button23 = new System.Windows.Forms.Button();
-            this.button24 = new System.Windows.Forms.Button();
+            this.result21 = new System.Windows.Forms.Button();
+            this.code21 = new System.Windows.Forms.Button();
+            this.conditions21 = new System.Windows.Forms.Button();
             this.label22 = new System.Windows.Forms.Label();
             this.button25 = new System.Windows.Forms.Button();
             this.button26 = new System.Windows.Forms.Button();
@@ -814,6 +814,7 @@
             this.result18.TabIndex = 69;
             this.result18.Text = "Результат";
             this.result18.UseVisualStyleBackColor = true;
+            this.result18.Click += new System.EventHandler(this.result18_Click);
             // 
             // Code18
             // 
@@ -823,6 +824,7 @@
             this.Code18.TabIndex = 68;
             this.Code18.Text = "Код";
             this.Code18.UseVisualStyleBackColor = true;
+            this.Code18.Click += new System.EventHandler(this.Code18_Click);
             // 
             // conditions18
             // 
@@ -832,6 +834,7 @@
             this.conditions18.TabIndex = 67;
             this.conditions18.Text = "Условия";
             this.conditions18.UseVisualStyleBackColor = true;
+            this.conditions18.Click += new System.EventHandler(this.conditions18_Click);
             // 
             // label19
             // 
@@ -850,6 +853,7 @@
             this.result19.TabIndex = 73;
             this.result19.Text = "Результат";
             this.result19.UseVisualStyleBackColor = true;
+            this.result19.Click += new System.EventHandler(this.result19_Click);
             // 
             // Code19
             // 
@@ -859,6 +863,7 @@
             this.Code19.TabIndex = 72;
             this.Code19.Text = "Код";
             this.Code19.UseVisualStyleBackColor = true;
+            this.Code19.Click += new System.EventHandler(this.Code19_Click);
             // 
             // conditions19
             // 
@@ -868,6 +873,7 @@
             this.conditions19.TabIndex = 71;
             this.conditions19.Text = "Условия";
             this.conditions19.UseVisualStyleBackColor = true;
+            this.conditions19.Click += new System.EventHandler(this.conditions19_Click);
             // 
             // label20
             // 
@@ -886,6 +892,7 @@
             this.result20.TabIndex = 77;
             this.result20.Text = "Результат";
             this.result20.UseVisualStyleBackColor = true;
+            this.result20.Click += new System.EventHandler(this.result20_Click);
             // 
             // Code20
             // 
@@ -895,6 +902,7 @@
             this.Code20.TabIndex = 76;
             this.Code20.Text = "Код";
             this.Code20.UseVisualStyleBackColor = true;
+            this.Code20.Click += new System.EventHandler(this.Code20_Click);
             // 
             // conditions20
             // 
@@ -904,6 +912,7 @@
             this.conditions20.TabIndex = 75;
             this.conditions20.Text = "Условия";
             this.conditions20.UseVisualStyleBackColor = true;
+            this.conditions20.Click += new System.EventHandler(this.conditions20_Click);
             // 
             // label21
             // 
@@ -914,32 +923,35 @@
             this.label21.TabIndex = 82;
             this.label21.Text = "ЗАДАЧА 21";
             // 
-            // button22
+            // result21
             // 
-            this.button22.Location = new System.Drawing.Point(545, 251);
-            this.button22.Name = "button22";
-            this.button22.Size = new System.Drawing.Size(75, 23);
-            this.button22.TabIndex = 81;
-            this.button22.Text = "Результат";
-            this.button22.UseVisualStyleBackColor = true;
+            this.result21.Location = new System.Drawing.Point(545, 251);
+            this.result21.Name = "result21";
+            this.result21.Size = new System.Drawing.Size(75, 23);
+            this.result21.TabIndex = 81;
+            this.result21.Text = "Результат";
+            this.result21.UseVisualStyleBackColor = true;
+            this.result21.Click += new System.EventHandler(this.result21_Click);
             // 
-            // button23
+            // code21
             // 
-            this.button23.Location = new System.Drawing.Point(464, 251);
-            this.button23.Name = "button23";
-            this.button23.Size = new System.Drawing.Size(75, 23);
-            this.button23.TabIndex = 80;
-            this.button23.Text = "Код";
-            this.button23.UseVisualStyleBackColor = true;
+            this.code21.Location = new System.Drawing.Point(464, 251);
+            this.code21.Name = "code21";
+            this.code21.Size = new System.Drawing.Size(75, 23);
+            this.code21.TabIndex = 80;
+            this.code21.Text = "Код";
+            this.code21.UseVisualStyleBackColor = true;
+            this.code21.Click += new System.EventHandler(this.code21_Click);
             // 
-            // button24
+            // conditions21
             // 
-            this.button24.Location = new System.Drawing.Point(383, 250);
-            this.button24.Name = "button24";
-            this.button24.Size = new System.Drawing.Size(75, 23);
-            this.button24.TabIndex = 79;
-            this.button24.Text = "Условия";
-            this.button24.UseVisualStyleBackColor = true;
+            this.conditions21.Location = new System.Drawing.Point(383, 250);
+            this.conditions21.Name = "conditions21";
+            this.conditions21.Size = new System.Drawing.Size(75, 23);
+            this.conditions21.TabIndex = 79;
+            this.conditions21.Text = "Условия";
+            this.conditions21.UseVisualStyleBackColor = true;
+            this.conditions21.Click += new System.EventHandler(this.conditions21_Click);
             // 
             // label22
             // 
@@ -1147,9 +1159,9 @@
             this.Controls.Add(this.button26);
             this.Controls.Add(this.button27);
             this.Controls.Add(this.label21);
-            this.Controls.Add(this.button22);
-            this.Controls.Add(this.button23);
-            this.Controls.Add(this.button24);
+            this.Controls.Add(this.result21);
+            this.Controls.Add(this.code21);
+            this.Controls.Add(this.conditions21);
             this.Controls.Add(this.label20);
             this.Controls.Add(this.result20);
             this.Controls.Add(this.Code20);
@@ -1320,9 +1332,9 @@
         private System.Windows.Forms.Button Code20;
         private System.Windows.Forms.Button conditions20;
         private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.Button button22;
-        private System.Windows.Forms.Button button23;
-        private System.Windows.Forms.Button button24;
+        private System.Windows.Forms.Button result21;
+        private System.Windows.Forms.Button code21;
+        private System.Windows.Forms.Button conditions21;
         private System.Windows.Forms.Label label22;
         private System.Windows.Forms.Button button25;
         private System.Windows.Forms.Button button26;

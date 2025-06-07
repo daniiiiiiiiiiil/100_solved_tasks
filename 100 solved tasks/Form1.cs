@@ -261,7 +261,7 @@ namespace _100_solved_tasks
 
         private void Code16_Click(object sender, EventArgs e)
         {
-
+            MessageBox.Show("public int CountingWords(string line)\r\n        {\r\n            string[] words = line.Split(new char[] { ' ', '\\t', '\\n', '\\r' }, StringSplitOptions.RemoveEmptyEntries);\r\n            return words.Length;\r\n        }");
         }
 
         private void result16_Click(object sender, EventArgs e)
@@ -282,6 +282,66 @@ namespace _100_solved_tasks
         private void result17_Click(object sender, EventArgs e)
         {
             MessageBox.Show(task.Spaces("Hello wordl"));
+        }
+
+        private void conditions18_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Сумма элементов массива\r\nНайти сумму всех чисел в массиве.\r\nПример: [1, 2, 3] → 6");
+        }
+
+        private void Code18_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("public void SumArr()\r\n        {\r\n            int sum = 0;\r\n            int[] arr = { 1, 2, 3 };\r\n            for (int i = 0; i < arr.Length; i++)\r\n            {\r\n                sum += arr[i];\r\n            }\r\n            MessageBox.Show(sum.ToString());\r\n        }");
+        }
+
+        private void result18_Click(object sender, EventArgs e)
+        {
+            array.SumArr();
+        }
+
+        private void conditions19_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Поиск индекса элемента\r\nВернуть индекс первого вхождения элемента в массиве.\r\nПример: [1, 2, 3], 2 → 1");
+        }
+
+        private void Code19_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("public void Index(int num)\r\n        {\r\n            List<int> numbers = new List<int> { 1,2,3 };\r\n            int index = numbers.IndexOf(num);\r\n            MessageBox.Show(index.ToString());\r\n        }");
+        }
+
+        private void result19_Click(object sender, EventArgs e)
+        {
+            array.Index(2);
+        }
+
+        private void conditions20_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Объединение двух массивов\r\nСоздать новый массив из двух данных.\r\nПример: [1, 2], [3, 4] → [1, 2, 3, 4]");
+        }
+
+        private void Code20_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(" public void Unification()\r\n        {\r\n            int[] arr = { 1, 2 };\r\n            int[] arr1 = { 3, 4 };\r\n            int[] arr2 = new int[arr.Length + arr1.Length];\r\n            arr.CopyTo(arr2, 0);\r\n            arr1.CopyTo(arr2, arr1.Length);\r\n\r\n            MessageBox.Show(string.Join(\", \", arr2));\r\n        }");
+        }
+
+        private void result20_Click(object sender, EventArgs e)
+        {
+            array.Unification();
+        }
+
+        private void conditions21_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void code21_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void result21_Click(object sender, EventArgs e)
+        {
+            task.Counting_Letters("helllo");
         }
     }
 }

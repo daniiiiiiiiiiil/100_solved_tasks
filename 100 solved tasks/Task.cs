@@ -30,5 +30,29 @@ namespace _100_solved_tasks
             string replace = line.Replace(' ','-');
             return replace;
         }
+        public void Counting_Letters(string word)
+        {
+            var letterCounts = new Dictionary<char, int>();
+
+            foreach (char c in word)
+            {
+                if (letterCounts.ContainsKey(c))
+                {
+                    letterCounts[c]++;
+                }
+                else
+                {
+                    letterCounts[c] = 1;
+                }
+            }
+
+            foreach (var kvp in letterCounts)
+            {
+                if (kvp.Value > 1)
+                {
+                    MessageBox.Show($"Буква: {kvp.Key} - повторяется {kvp.Value} раз(а).");
+                }
+            }
+        }
     }
 }

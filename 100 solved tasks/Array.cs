@@ -100,5 +100,31 @@ namespace _100_solved_tasks
             }
             MessageBox.Show(sum.ToString());
         }
+        public void SumArr()
+        {
+            int sum = 0;
+            int[] arr = { 1, 2, 3 };
+            for (int i = 0; i < arr.Length; i++)
+            {
+                sum += arr[i];
+            }
+            MessageBox.Show(sum.ToString());
+        }
+        public void Index(int num)
+        {
+            List<int> numbers = new List<int> { 1,2,3 };
+            int index = numbers.IndexOf(num);
+            MessageBox.Show(index.ToString());
+        }
+        public void Unification()
+        {
+            int[] arr = { 1, 2 };
+            int[] arr1 = { 3, 4 };
+            int[] arr2 = new int[arr.Length + arr1.Length];
+            arr.CopyTo(arr2, 0);
+            arr1.CopyTo(arr2, arr1.Length);
+
+            MessageBox.Show(string.Join(", ", arr2));
+        }
     }
 }
